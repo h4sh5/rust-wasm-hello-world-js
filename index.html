@@ -14,7 +14,8 @@
       wasm().then((module) => {
         // The boiler plate project comes with a `greet` function that calls:
         // `alert("Hello, hello-wasm!");`
-        greet();
+        var num = greet();
+        console.log(num);
       });
     </script>
   </body>
